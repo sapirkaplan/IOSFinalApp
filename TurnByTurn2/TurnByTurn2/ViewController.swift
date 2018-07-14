@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     let speechSyntheizer = AVSpeechSynthesizer()
     var stepCounter = 1
     var timer:Timer!
-    var countDown = 90
+    var countDown = 60
     
     override func viewDidLoad() {
         super.viewDidLoad()
