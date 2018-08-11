@@ -15,6 +15,7 @@
 		BA00B3A620F5116E0074C0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA00B3A420F5116E0074C0EB /* LaunchScreen.storyboard */; };
 		BA00B3B120F5116F0074C0EB /* TurnByTurn2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00B3B020F5116F0074C0EB /* TurnByTurn2UITests.swift */; };
 		BA00B3BD20F513BD0074C0EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA00B3BC20F513BD0074C0EB /* MapKit.framework */; };
+		BA5F02E7211DDBBC00626A00 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F02E6211DDBBC00626A00 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BA00B3B020F5116F0074C0EB /* TurnByTurn2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnByTurn2UITests.swift; sourceTree = "<group>"; };
 		BA00B3B220F5116F0074C0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA00B3BC20F513BD0074C0EB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA5F02E6211DDBBC00626A00 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				BA00B3A420F5116E0074C0EB /* LaunchScreen.storyboard */,
 				BA00B3A720F5116F0074C0EB /* Info.plist */,
 				BA00B39F20F5116D0074C0EB /* TurnByTurn2.xcdatamodeld */,
+				BA5F02E6211DDBBC00626A00 /* InstructionsViewController.swift */,
 			);
 			path = TurnByTurn2;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				BA00B39B20F5116D0074C0EB /* ViewController.swift in Sources */,
 				BA00B39920F5116D0074C0EB /* AppDelegate.swift in Sources */,
+				BA5F02E7211DDBBC00626A00 /* InstructionsViewController.swift in Sources */,
 				BA00B3A120F5116D0074C0EB /* TurnByTurn2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

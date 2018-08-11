@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     var currentCoordinate: CLLocationCoordinate2D!
     var steps = [MKRouteStep]()
     let speechSyntheizer = AVSpeechSynthesizer()
-    var stepCounter = 1
+    var stepCounter = 0
     var timer:Timer!
     var countDown = 60
     
@@ -139,7 +139,7 @@ extension ViewController: CLLocationManagerDelegate{
     }
     
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
-        print("enter")
+        print("stepCounter = \(stepCounter)")
         stepCounter += 1
         if stepCounter < steps.count{
             let currentStep = steps[stepCounter]
